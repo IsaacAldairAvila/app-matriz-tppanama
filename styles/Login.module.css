@@ -1,0 +1,173 @@
+.container {
+    width: 100%;
+    background-color: white;
+    min-height: 100vh;
+    color: #1d1d1d;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.layoutlogin,
+.layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3rem;
+    width: calc(50vw - 6rem);
+    max-width: 500px;
+    min-height: calc(100vh - 10rem);
+    margin: 2rem;
+}
+
+.layoutlogin{
+    padding: 6rem 2rem;
+    justify-content:flex-start;
+    /* border: 1px solid #d1d1d1; */
+    border-radius: 20px;
+    /* box-shadow: 0px 2px 4px rgba(77, 71, 195, 0.4); */
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    color: black;
+    border-radius: 10px;
+    z-index: 3;
+    padding: 1rem;
+    margin: auto;
+    top: 3rem;
+    left: 3rem;
+    font-weight: 600;
+    font-size: 30px;
+    width: 200px;
+    height: auto;
+}
+
+.text {
+    padding: 10px;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.bienvenido {
+    padding: 1rem 1rem;
+    display: flex;
+    font-size: 25px;
+}
+
+.mensajelogin {
+    padding: .5rem 1rem;
+    display: flex;
+    font-size: 30px;
+}
+
+.mensajeportal {
+    padding: .5rem 1rem;
+    padding-top: 0;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.description {
+    padding: 1rem 1rem;
+    display: flex;
+    font-size: 16px;
+    font-weight: normal;
+    display: inline;
+}
+
+.descriptionlink {
+    display: inline;
+    font-weight: bold;
+    color: #FA5D5D;
+}
+
+.img{
+    position: relative;
+    width: 100%;
+    aspect-ratio : 1 / 1;
+    margin:0px;
+    padding: 0px;
+}
+
+.input{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: #FF7C6140;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: black;
+}
+
+.input:-webkit-autofill,
+.input:-webkit-autofill:hover, 
+.input:-webkit-autofill:focus, 
+.input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px #FF7C61 inset !important;
+}
+
+.input:-webkit-autofill{
+  -webkit-text-fill-color: #1d1d1d !important;
+}
+
+.forgotpassword{
+    text-align: right;
+    padding: 5px;
+}
+
+.buttonlogin{
+padding: 20px 0px;
+}
+
+.button{
+    width: 100%;
+    height: auto;
+    padding: 14px;
+    box-shadow: 0px 5px 20px #FA5D5D80;
+    background-color: #FA5D5D;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+}
+
+.button :hover{
+    background-color: red !important;
+}
+
+.inputlabel{
+    padding: .5rem 0;
+    max-width: 500px;
+}
+.label{
+    padding: 10px 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .logo{
+        top: 1rem;
+        left: 1rem;
+    }
+    .container {
+        flex-direction: column;
+        margin-top: 60px;
+        padding: 1rem;
+    }
+    .layoutlogin,
+    .layout {
+        min-height: calc(50vh - 6rem);
+        margin-top: 0;
+        width: 100%;
+        padding: 0;
+        padding: 1rem;
+    }
+
+    .text{
+        font-size: 40px;
+    }
+}

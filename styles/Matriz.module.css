@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% - 20px);
+    row-gap: 20px;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    overflow: hidden;
+    color: black;
+    justify-content:flex-start;
+    max-width: 100%;
+    margin: 0px 10px;
+}
+
+.inforesult{
+    width: calc(100% - 40px);
+    text-align: center;
+    font-size: 30px;
+    background-color: #FE5353;
+    color: white;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.result{
+    width: 100%;
+}
+
+.resulttitle{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
