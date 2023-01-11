@@ -81,7 +81,6 @@ const Login = () => {
               required
               type="email"
               placeholder="micorreo@dominio.com"
-              pattern=".+@gmail.com"
               id="email"
               className={styles.input}
             />
